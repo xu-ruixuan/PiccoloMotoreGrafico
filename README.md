@@ -7,25 +7,25 @@ Ogni volta che si cambiano i settaggi è necessario ricompilare tutto il progett
 
 ## Input
 
-Freccia su : sposta un oggetto in alto
-Freccia giu : sposta un oggetto in basso
-Freccia sinistra : sposta un oggetto a sinistra
-Freccia destra : sposta un oggetto a destra
-8 : sposta un oggetto in profondità
-2 : avvicina l'oggetto
+Freccia su : sposta un oggetto in alto  
+Freccia giu : sposta un oggetto in basso  
+Freccia sinistra : sposta un oggetto a sinistra  
+Freccia destra : sposta un oggetto a destra  
+8 : sposta un oggetto in profondità  
+2 : avvicina l'oggetto  
 
-I : sposta la telecamera in avanti
-K : sposta la telecamera indietro
-J : sposta la telecamera a sinistra
-L : sposta la telecamera a destra
+I : sposta la telecamera in avanti  
+K : sposta la telecamera indietro  
+J : sposta la telecamera a sinistra  
+L : sposta la telecamera a destra  
 
-W : zoom in
-S : zoom out
+W : zoom in  
+S : zoom out  
 
-Q : ruota un oggetto in senso anti orario per l'asse y
+Q : ruota un oggetto in senso anti orario per l'asse y  
+ 
+R : Ingrandisci l'oggetto  
+F : Rimpocciolisci l'oggetto  
 
-R : Ingrandisci l'oggetto
-F : Rimpocciolisci l'oggetto
-
-D : allarga l'oggetto
+D : allarga l'oggetto  
 
