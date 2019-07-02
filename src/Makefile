@@ -1,6 +1,6 @@
 # -*- MakeFile -*-
 
-path_l = ../lib/
+path_l = ../obj/
 sfml_lib = -lsfml-system -lsfml-window -lsfml-graphics
 path_bin = ../bin/
 prog = engine
