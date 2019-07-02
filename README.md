@@ -2,7 +2,7 @@
 Piccolo motore grafico per la tesi 2019/2020 sulla geometria proiettiva.
 
 ## Settaggi
-I settaggi sono nel file Settings.h modificando le macro è possibile cambiare il comportamento del software.
+I settaggi sono nel file Settings.h, modificando le macro all'interno è possibile cambiare il comportamento del software.
 Ogni volta che si cambiano i settaggi è necessario ricompilare tutto il progetto tramite il makefile: nella cartella "src" scrivere su linea di comando "make".
 
 ## Input
