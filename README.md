@@ -1,7 +1,7 @@
 # PiccoloMotoreGrafico
 Piccolo motore grafico per la tesi 2019/2020 sulla geometria proiettiva.
 
-##Dipendenze
+## Dipendenze
 
 Per compilare il progetto è necessario avere le librerie:
 
