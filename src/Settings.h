@@ -4,18 +4,21 @@
 #define RES_W 800
 #define RES_H 600
 
-#define SHOW_TEAPOT false
-#define SHOW_SPHERE true
+#define SHOW_TEAPOT true
+#define SHOW_SPHERE false
 #define SHOW_PYRAMID false
 
 //I gradi del campo di vista
 #define CAMERA_FOV 60
 
 //Disegna il wireframe degli oggetti
-#define WIREFRAME true
+#define WIREFRAME false
+
+//Attiva l'algoritmo del pittore
+#define PAINTER_ALGORITHM true
 
 //Back face culling: Cancella dalla pipeline i triangoli coperti
-#define BACK_FACE_CULLING false
+#define BACK_FACE_CULLING true
 
 //proiezione prospettiva, se false allora usa la proiezione ortogonale
 #define PERSPECTIVE true

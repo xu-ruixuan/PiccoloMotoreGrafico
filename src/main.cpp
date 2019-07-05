@@ -132,7 +132,7 @@ int main(int argc, char const *argv[]) {
   if(SHOW_PYRAMID){
     Object obj = generatePiramid();
     obj.color = sf::Color::Blue;
-    obj.position << 0,-1,4,1;
+    obj.position << 0,0,4,1;
     objects.push_back(obj);
   }
   if(SHOW_SPHERE){
@@ -144,7 +144,7 @@ int main(int argc, char const *argv[]) {
   if(SHOW_TEAPOT){
     Object tea = readObjFile("obj/teapot.obj");
     tea.color = sf::Color::Red;
-    tea.position << 0,0,10,1;
+    tea.position << 0,-0.5,10,1;
     objects.push_back(tea);
   }
 

@@ -8,7 +8,7 @@ modules = $(path_l)engine.o $(path_l)data.o $(path_l)pipeline.o $(path_l)transfo
 headers = Settings.h
 debug = -g -Wall
 $(prog): $(modules)
-	g++ $(debug) $(modules) $(sfml_lib) -o $(path_bin)$(prog) $(headers)
+	g++ $(debug) $(modules) $(sfml_lib) $(headers) -o $(path_bin)$(prog)
 
 $(path_l)engine.o: main.cpp $(headers)
 	g++ -c main.cpp -o $(path_l)engine.o

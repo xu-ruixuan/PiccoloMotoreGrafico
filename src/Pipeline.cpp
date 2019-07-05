@@ -70,7 +70,8 @@ std::vector<sf::VertexArray> Pipeline::display(){
   toCamSpace = getSpaceMatrix(camera.position, ZERO_VEC, camera.dir);
 
   //Sort
-  std::sort(buffer.begin(), buffer.end(), std::greater<Triangle>());
+  if(PAINTER_ALGORITHM)
+    std::sort(buffer.begin(), buffer.end(), std::greater<Triangle>());
 
   for(std::vector<Triangle>::iterator iter = buffer.begin(); iter != buffer.end(); iter++){
 
