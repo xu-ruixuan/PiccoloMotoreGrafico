@@ -1,6 +1,13 @@
 # PiccoloMotoreGrafico
 Piccolo motore grafico per la tesi 2019/2020 sulla geometria proiettiva.
 
+##Dipendenze
+
+Per compilare il progetto è necessario avere le librerie:
+
+1. Eigen3: libreria per l'algebra lineare.
+2. SFML: libreria per il rendering 2D.
+
 ## Settaggi
 I settaggi sono nel file Settings.h, modificando le macro all'interno è possibile cambiare il comportamento del software.
 Ogni volta che si cambiano i settaggi è necessario ricompilare tutto il progetto tramite il makefile: nella cartella "src" scrivere su linea di comando "make".
